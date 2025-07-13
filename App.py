@@ -13,12 +13,6 @@ from dotenv import load_dotenv
 
 
 
-from langchain_google_genai import ChatGoogleGenerativeAI
-
-llm = ChatGoogleGenerativeAI(
-    model="models/gemini-pro",   # this is correct
-    google_api_key="AIzaSyCcWQWAP4JKAT9G43nv6VyCGvg_Sou_jco"
-)
 
 
 
